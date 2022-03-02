@@ -139,7 +139,8 @@ section #mas_info{
 section #mas_info #educacion_info{
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 
@@ -150,20 +151,30 @@ section #mas_info #educacion_info{
     letter-spacing: 1px;
 }
 
-#educacion_info #edu_{
-
+#educacion_info .edu_{
+    width: 500px;
+    margin-bottom: 20px;
 }
 
-#educacion_info #edu_ h1{
-
+#educacion_info .edu_ h1{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #3b5aa5;
+    letter-spacing: 1px;
 }
 
-#educacion_info #edu_ h2{
-
+#educacion_info .edu_ h2{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #3b5aa5;
+    letter-spacing: 1px;
 }
 
-#educacion_info #edu_ h3{
-
+#educacion_info .edu_ h3{
+    font-size: 11px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 100;
 }
 
 
@@ -172,7 +183,8 @@ section #mas_info #educacion_info{
 section #mas_info #reconocimientos_info{
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 
@@ -270,7 +282,8 @@ section #mas_info #habilidades_info{
 section #mas_info #experiencia_info{
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 #experiencia_info >h1{
