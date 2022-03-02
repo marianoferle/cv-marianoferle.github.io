@@ -88,6 +88,7 @@ section{
 
 section #perfil_info{
     width: 250px;
+    min-width: 250px;
     margin-left: 100px;
     padding: 10px;
     background-color: #446dcd;
