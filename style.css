@@ -20,6 +20,11 @@ time, mark, audio, video {
     font-family: Verdana, Arial, Tahoma, Serif;
 }
 
+#contenedor{
+    width: 100%;
+    height: auto;
+    min-width: 1200px;
+}
 
 header{
     width: 100%;
@@ -119,6 +124,7 @@ section #perfil_info{
     letter-spacing: 1px;
     line-height: 20px;
     margin-bottom: 10px;
+    list-style: none;
 }
 
 #perfil_info li strong{
