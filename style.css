@@ -1,0 +1,182 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+
+header{
+    width: 100%;
+    background-color: #3d5ba3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+/*##################### image ########################*/
+
+
+header #image_cv{
+    width: 200px;
+    margin-left: 100px;
+    padding: 35px;   
+    background-color:#446dcd;
+}
+
+#image_cv img{
+    width: 200px;
+}
+
+/*#################### titulo #########################*/
+
+
+header #titulo_cv{
+    margin-left: 50px;
+    padding: 30px;    
+}
+
+#titulo_cv h1{
+    text-transform: uppercase;
+    color:#FFF;
+    font-size:50px;
+}
+
+#titulo_cv h2{
+    text-transform: uppercase;
+    color:#FFF;
+    font-size:40px;
+    font-weight: 100;
+
+}
+
+#titulo_cv h3{
+    color:#000;
+    font-size:16px;
+    font-weight: 100;
+    
+}
+
+/*-----------------------------------------------*/
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*#############################################*/
+
+section #perfil_info{
+    width: 250px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: #446dcd;
+    color:#FFF;
+}
+
+#perfil_info h1{
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+#perfil_info p{
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#perfil_info ul{
+    text-align: left;
+}
+
+#perfil_info li{
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#perfil_info li strong{
+    color:#002785;
+}
+
+#perfil_info li a{
+    text-decoration: none;
+    color:#fff
+}
+
+
+/*#############################################*/
+
+section #experiencia_info{
+    width: 600px;
+    margin-left: 50px;
+    padding: 30px; 
+}
+
+#experiencia_info >h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:#3b5aa5;
+    letter-spacing: 1px;
+
+}
+
+#experiencia_info .exp_{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#experiencia_info .exp_ h1{
+    font-size: 18px;
+    color: #446dcd;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#experiencia_info .exp_ h2{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #3d5ba3;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+#experiencia_info .exp_ p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+
+#experiencia_info .exp_ p a{
+    text-decoration: none;
+    color: #3d5ba3;
+}
+
+#experiencia_info .exp_ p i{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
