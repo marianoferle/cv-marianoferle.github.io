@@ -28,6 +28,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    -webkit-print-color-adjust: exact; 
 }
 
 /*##################### image ########################*/
@@ -38,6 +39,7 @@ header #image_cv{
     margin-left: 100px;
     padding: 35px;   
     background-color:#446dcd;
+    -webkit-print-color-adjust: exact; 
 }
 
 #image_cv img{
@@ -90,6 +92,7 @@ section #perfil_info{
     padding: 10px;
     background-color: #446dcd;
     color:#FFF;
+    -webkit-print-color-adjust: exact; 
 }
 
 #perfil_info h1{
@@ -260,6 +263,7 @@ section #mas_info #habilidades_info{
    background-color: #446dcd;
    margin: 1px;    
    display: block;
+   -webkit-print-color-adjust: exact; 
 }
 
 #span_html{max-width: 100%;}
